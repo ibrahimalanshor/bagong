@@ -4,7 +4,9 @@ Frameworok
 
 ## Install
 
+```bash
 npm install bagong --save
+```
 
 ## Run
 

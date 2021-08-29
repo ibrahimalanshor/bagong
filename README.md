@@ -24,10 +24,10 @@ const routes = [
   }
 ]
 
-module.exports = {
+module.exports = routing({
   path: '/',
-  router: routing(routes)
-}
+  routes
+})
 ```
 
 Create router file (routes.js)
@@ -45,7 +45,7 @@ Create bagong instance
 const Bagong = require('bagong').App
 const routes = require('./routes')
 
-const app = new Bagong(routes, 4000)
+const app = new Bagong({ routes, port: 4000 })
 
 app.listen()
 ```

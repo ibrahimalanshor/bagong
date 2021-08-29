@@ -18,4 +18,7 @@ const routes = [
   }
 ]
 
-console.log( routing(routes) )
+console.log( routing({
+  path: '/',
+  routes
+}) )

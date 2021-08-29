@@ -1,6 +1,6 @@
 {
   "name": "bagong",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -16,7 +16,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["express", "node", "framework"],
+  "keywords": [
+    "express",
+    "node",
+    "framework"
+  ],
   "author": "ibrahimalanshor",
   "license": "ISC",
   "description": ""
